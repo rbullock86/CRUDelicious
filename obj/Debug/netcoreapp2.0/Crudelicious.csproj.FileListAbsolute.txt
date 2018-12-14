@@ -1,0 +1,11 @@
+C:\Users\richa\Documents\Dojo\Csharp\ORM\Crudelicious\obj\Debug\netcoreapp2.0\Crudelicious.csprojAssemblyReference.cache
+C:\Users\richa\Documents\Dojo\Csharp\ORM\Crudelicious\obj\Debug\netcoreapp2.0\Crudelicious.csproj.CoreCompileInputs.cache
+C:\Users\richa\Documents\Dojo\Csharp\ORM\Crudelicious\obj\Debug\netcoreapp2.0\Crudelicious.AssemblyInfoInputs.cache
+C:\Users\richa\Documents\Dojo\Csharp\ORM\Crudelicious\obj\Debug\netcoreapp2.0\Crudelicious.AssemblyInfo.cs
+C:\Users\richa\Documents\Dojo\Csharp\ORM\Crudelicious\bin\Debug\netcoreapp2.0\Crudelicious.deps.json
+C:\Users\richa\Documents\Dojo\Csharp\ORM\Crudelicious\bin\Debug\netcoreapp2.0\Crudelicious.runtimeconfig.json
+C:\Users\richa\Documents\Dojo\Csharp\ORM\Crudelicious\bin\Debug\netcoreapp2.0\Crudelicious.runtimeconfig.dev.json
+C:\Users\richa\Documents\Dojo\Csharp\ORM\Crudelicious\bin\Debug\netcoreapp2.0\Crudelicious.dll
+C:\Users\richa\Documents\Dojo\Csharp\ORM\Crudelicious\bin\Debug\netcoreapp2.0\Crudelicious.pdb
+C:\Users\richa\Documents\Dojo\Csharp\ORM\Crudelicious\obj\Debug\netcoreapp2.0\Crudelicious.dll
+C:\Users\richa\Documents\Dojo\Csharp\ORM\Crudelicious\obj\Debug\netcoreapp2.0\Crudelicious.pdb

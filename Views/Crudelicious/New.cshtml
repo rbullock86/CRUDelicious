@@ -1,0 +1,70 @@
+@using Microsoft.AspNetCore.Http
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crudelicious</title>
+</head>
+<style>
+    .container{
+        width: 50%;
+    }
+    .inline {
+        display: inline-block;
+        margin: 20px;
+        vertical-align: top;
+    }
+    .big-ass-button {
+        width: 90%;
+        height: 300px;
+        margin: 20px auto;
+    }
+</style>
+<body>
+    <div class="container">
+        <a href="/">Home</a>
+        <div>
+            <h1>Add a new Dish</h1>
+        </div>
+        @model Dish
+        <form asp-action="Create" method="POST">
+            <!-- Error Messages -->
+            <span style="color: red;" asp-validation-for="Name"></span>
+            <span style="color: red;" asp-validation-for="Chef"></span>
+            <span style="color: red;" asp-validation-for="Calories"></span>
+            <span style="color: red;" asp-validation-for="Tastiness"></span>
+            <span style="color: red;" asp-validation-for="Description"></span>
+
+            <div class="inline">
+                <p>Chef's Name</p>
+                <input asp-for="Chef">
+                <p>Name of Dish</p>
+                <input asp-for="Name">
+                <p># of Calories</p>
+                <input asp-for="Calories">
+            </div>
+            <div class="inline">
+                <p>Tastiness</p>
+                <select asp-for="Tastiness">
+                    <option value="0">-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div class="inline">
+                <p>Description</p>
+                <textarea asp-for="Description" id="" cols="30" rows="10"></textarea>
+                <br>
+            </div>
+            <div>
+                <button type="submit" class="big-ass-button">Add Dish</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

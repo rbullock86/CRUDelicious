@@ -1,0 +1,26 @@
+@model IEnumerable<Crudelicious.Models.Dish>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crudelicious</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Welcome to CRUDelicious</h1>
+            <span>Check out some recent dishes</span>
+            <a href="/new">Add a Dish</a>
+        </div>
+        <div>
+            <ul>
+                @foreach(var item in Model){
+                    <li><a href="/@item.Id">@item.Name</a> by @item.Chef</li>
+                }
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

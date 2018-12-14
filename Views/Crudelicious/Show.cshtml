@@ -1,0 +1,24 @@
+@model Crudelicious.Models.Dish
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crudelicious</title>
+</head>
+<body>
+    <div>
+        <a href="/">Home</a>
+        <div>
+            <h1>@Model.Name</h1>
+            <h3>@Model.Chef</h3>
+        </div>
+        <p>@Model.Description</p>
+        <p>Calories: @Model.Calories</p>
+        <p>Tastiness: @Model.Tastiness</p>
+    </div>
+    <a href="/delete/@Model.Id"><button>Delete</button></a>
+    <a href="/edit/@Model.Id"><button>Edit</button></a>
+</body>
+</html>
